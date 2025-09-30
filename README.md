@@ -87,5 +87,8 @@ Python 3 Orientação a Objetos
 SQLite
 
 ## Autor
-Felipe Ferreira Drummond
-Email: felidrummond84@gmail.com LinkedIn: https://www.linkedin.com/in/felipe-drummond-8223a92bb/
+Felipe Ferreira Drummond  
+
+Email: felidrummond84@gmail.com  
+
+LinkedIn: https://www.linkedin.com/in/felipe-drummond-8223a92bb/
