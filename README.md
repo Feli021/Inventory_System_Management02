@@ -10,24 +10,37 @@ O SQLite foi escolhido como banco de dados por ser leve, fácil de usar e ideal 
 
 ## Funcionalidades
 Adicionar produtos ao inventário
+
 Adicionar fornecedores
+
 Listar produtos
+
 Listar fornecedores
+
 Atualizar produtos
+
 Atualizar fornecedores
+
 Atualizar estoque
+
 Deletar produtos
+
 Deletar fornecedores
+
 Processamento de pedidos com atualização do estoque
 
 ## Estrutura do Projeto
-db.py - Arquivo com a criação do banco de daods
-Inventory_System.py - Arquivo o qual gerenciamos todo nosso sistema. Inclui todas as funções para mexer no sistema
-models.py – Contém todas as classes do sistema mapeadas no banco de dados
+db.py - Arquivo com a criação do banco de dados  
+
+Inventory_System.py - Arquivo o qual gerenciamos todo nosso sistema. Inclui todas as funções para mexer no sistema  
+
+models.py – Contém todas as classes do sistema mapeadas no banco de dados  
+
 main.py – Script principal para rodar o sistema e testar funcionalidades.
 
 ## Requisitos:
-Python 3.8 ou superior
+Python 3.8 ou superior  
+
 (Opcional) Ambiente virtual para isolamento do projeto
 
 ## Como Rodar
