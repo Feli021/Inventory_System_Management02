@@ -1,10 +1,12 @@
 ### Inventory Management System com SQLite
 ## Descrição do Projeto
-Este projeto consiste em um sistema de gerenciamento de inventário simples, desenvolvido em Python, com uso de banco de dados.
-O projeto contém todas as operações de um CRUD
-Ele permite adicionar, listar, atualizar, e deletar produtos e fornecedores
-O sistema utiliza programação orientada a objetos (POO), incluindo classes para Produtos, Fornecedores e Pedidos, além de herança para diferentes tipos de produtos (Eletrônicos, Roupas, Material Escolar).
-O banco de dados utilizado foi o SQLite que é excelente para projetos pequenos e médios.
+Descrição do Projeto
+
+Este projeto é um sistema de gerenciamento de inventário desenvolvido em Python, com integração a um banco de dados SQLite. O sistema implementa todas as operações de um CRUD, permitindo adicionar, listar, atualizar e deletar produtos e fornecedores.
+
+O projeto utiliza Programação Orientada a Objetos (POO), com classes para Produtos, Fornecedores e Pedidos, e faz uso de herança para diferentes tipos de produtos, como Eletrônicos, Roupas e Material Escolar.
+
+O SQLite foi escolhido como banco de dados por ser leve, fácil de usar e ideal para projetos pequenos e médios, garantindo persistência dos dados de forma simples e eficiente.
 
 ## Funcionalidades
 Adicionar produtos ao inventário
