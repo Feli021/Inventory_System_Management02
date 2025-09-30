@@ -45,16 +45,26 @@ python main.py
 
 ## Exemplo de Saída
 Após rodar main.py, você verá algo como:
-Name: Caneta Azul, Price: 2.5, Stock_quantity: 100, Supplier: Fornecedor Teste
-Name: Fornecedor Teste, Contact: teste@fornecedor.com, Id: 1
-Product updated sucessfully
-Stock quantity updated succesffuly
-Name: Caneta Preta, Price: 3.0, Stock_quantity: 150, Supplier: Fornecedor Teste
-Pedido realizado com sucesso: Jota: 10 x Caneta Preta
-Name: Caneta Preta, Price: 3.0, Stock_quantity: 140, Supplier: Fornecedor Teste
-Product deleted successfully
-Supplier deleted successfully
-No registered product
+Name: Caneta Azul, Price: 2.5, Stock_quantity: 100, Supplier: Fornecedor Teste  
+
+Name: Fornecedor Teste, Contact: teste@fornecedor.com, Id: 1 
+
+Product updated sucessfully  
+
+Stock quantity updated succesffuly  
+
+Name: Caneta Preta, Price: 3.0, Stock_quantity: 150, Supplier: Fornecedor Teste  
+
+Pedido realizado com sucesso: Jota: 10 x Caneta Preta  
+
+Name: Caneta Preta, Price: 3.0, Stock_quantity: 140, Supplier: Fornecedor Teste  
+
+Product deleted successfully  
+
+Supplier deleted successfully 
+
+No registered product  
+
 no registered supplier
 
 ## Tecnologias
