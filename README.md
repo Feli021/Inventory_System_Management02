@@ -1,4 +1,4 @@
-### Inventory Management System Com SQLite
+### Inventory Management System com SQLite
 ## Descrição do Projeto
 Este projeto consiste em um sistema de gerenciamento de inventário simples, desenvolvido em Python, com uso de banco de dados.
 O projeto contém todas as operações de um CRUD
