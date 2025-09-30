@@ -1,6 +1,6 @@
 from db import db
 from models import Supplier, Product, Order, OrderItem
-import datetime
+from datetime import datetime
 class InventorySystem:
     def __init__(self):
         pass
@@ -24,13 +24,19 @@ class InventorySystem:
     # READ - To list products and suppliers
     def list_product(self):
        products_ = Product.query.all()  # Return a list with the products
+       if not products_:
+            print("No registered product")
+            return
        for product in products_:
-            print(f"Name: {product.name}, Price: {product.price}, Stock_quantity: {product.stock_quantity}, Supplier: {product.supplier}")
+            print(f"Name: {product.name}, Price: {product.price}, Stock_quantity: {product.stock_quantity}, Supplier: {product.supplier.name}")
    
     def list_supplier(self):
         suppliers_ = Supplier.query.all()
+        if not suppliers_:
+             print("no registered supplier")
+             return     
         for supplier in suppliers_:
-            print(f"Name: {supplier.name}, Contact: {supplier.contact}")
+            print(f"Name: {supplier.name}, Contact: {supplier.contact}, Id: {supplier.id}")
    
     # Update - To update products, suppliers and stock
     def update_product(self, id, newname, newprice): # To Change the atributes of the products

@@ -14,8 +14,12 @@ with app.app_context():
     db.create_all()
     # Adding supplier
     supplier = Supplier(name="Fornecedor Teste", contact="teste@fornecedor.com")
+    db.session.add(supplier)
     # Adding product
-    product = Product(name="Caneta Azul", price=2.50, stock_quantity=100, type="SchoolSupplies")
+    product = Product(name="Caneta Azul", price=2.50, stock_quantity=100, type="SchoolSupplies", supplier=supplier)
+    db.session.add(product)
+    # Commit
+    db.session.commit()
     # To list products
     system.list_product()
     # To list suppliers
@@ -24,9 +28,18 @@ with app.app_context():
     print(system.update_product(id=1, newname="Caneta Preta", newprice=3.00))
     # To update stock
     print(system.update_stock_quantity(id=1, newquantity=50))
+    # To list products
+    system.list_product()
     # Place order
     print(system.place_order(customer_name="Jota", product_id=1, amount=10))
+    # To list products
+    system.list_product()
     # To deleted product
     print(system.delete_product(id=1))
     # To deleted supplier
     print(system.delete_supplier(id=1))
+        # To list products
+    system.list_product()
+    # To list suppliers
+    system.list_supplier()
+

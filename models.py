@@ -15,7 +15,7 @@ class Supplier(db.Model): # db.Model diz ao SQLAlchemy que essa classe deve ser 
     products = db.relationship("Product", back_populates= "supplier", cascade="all,delete")
 
     def __repr__(self):
-        return f"<Supplier {self.name}>"
+        return f"Supplier {self.name}"
     
 
 
