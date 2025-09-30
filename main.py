@@ -14,10 +14,8 @@ with app.app_context():
     db.create_all()
     # Adding supplier
     supplier = Supplier(name="Fornecedor Teste", contact="teste@fornecedor.com")
-    print(system.add_supplier(supplier))
     # Adding product
     product = Product(name="Caneta Azul", price=2.50, stock_quantity=100, type="SchoolSupplies")
-    print(system.add_product(product))
     # To list products
     system.list_product()
     # To list suppliers
