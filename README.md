@@ -84,6 +84,7 @@ no registered supplier
 
 ## Tecnologias
 Python 3 Orientação a Objetos
+
 SQLite
 
 ## Autor
